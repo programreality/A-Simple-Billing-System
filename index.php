@@ -12,7 +12,7 @@
   </head>
   <body>
 <div class="container text-center">
-  <h1>Billing System</h1><br>
+  <h1>Billing System heading changed</h1><br>
   <img src="logo.png" alt="asbs logo" class="img-circle" width="300px"><br><br><br>
   <form action="transaction.php" method="post">
     <input type="hidden" value=<?php echo "$transid"; $_SESSION['transid']=$transid; ?> name="transid" />
